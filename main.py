@@ -1,4 +1,13 @@
 from CleanData import ReadData
+from AddFeatures import Attributes
+from SeparateReviewType import SeparateData
 
-cleanDataObject = ReadData()
-cleanDataObject.loadDataAndClean()
+
+# objectCleanData = ReadData()
+# objectCleanData.loadDataAndClean()
+
+# objectAddFeatures = Attributes()
+# objectAddFeatures.addAttribute()
+
+objectSeparateData = SeparateData()
+objectSeparateData.dataSeparator()
