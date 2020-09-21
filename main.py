@@ -1,7 +1,7 @@
 from CleanData import ReadData
 from AddFeatures import Attributes
 from SeparateReviewType import SeparateData
-
+from AvgAndMedian import CalcAvgAndMedian
 
 # objectCleanData = ReadData()
 # objectCleanData.loadDataAndClean()
@@ -9,5 +9,9 @@ from SeparateReviewType import SeparateData
 # objectAddFeatures = Attributes()
 # objectAddFeatures.addAttribute()
 
-objectSeparateData = SeparateData()
-objectSeparateData.dataSeparator()
+# objectSeparateData = SeparateData()
+# objectSeparateData.dataSeparator()
+
+objectAvgAndMedian = CalcAvgAndMedian()
+# objectAvgAndMedian.calcAvgRatingAndChar()
+objectAvgAndMedian.calcMedianReviewChar()
