@@ -1,1 +1,1 @@
-# Determining-Peoples-Preferred-Restaurant-Environment-in-Dhaka-City-by-Analyzing-Restaurant-Reviews
+Here I have used a data set of restaurant reviews based on Dhaka city. The project extracts various statistical information from the data set. I have used manually selected keywords and calculated their frequency in the data set for evaluating the reasons of people preferring a restaurant. 
